@@ -1,0 +1,10 @@
+{
+    "name": "History Autoclean",
+    "description": "Clear history automatically without clear manually in configuration.",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["browsingData"]
+}
